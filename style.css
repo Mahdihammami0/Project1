@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+}
+/* ============================Div 1=======================================*/
+
+#page1{
+    padding: 50px 0px;
+    background-image: url(cover1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+    text-align: center;
+}
+#h1page1{
+    font-size: 40px;
+}
+.textPage1{
+    font-weight: 80;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+#img1page1{
+    height: 300px;
+    width: 380px;
+}
+#btnPage1{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(139, 139, 245);
+    color: white;
+    transition: 0.5s;
+}
+#btnPage1:hover{
+    background-color: rgb(92, 92, 221);
+}
+/* ============================Div 2=======================================*/
+#page2{
+    font-family: "Poetsen One", sans-serif;
+    background-color: gainsboro;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+#photoZone img{
+    height: 400px;
+    width: 300px;
+    margin: 3vh 0 0 15vh;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+}
+#DescriptionZone{
+    margin: 6vh 0 0 5vh;
+}
+#DescriptionZone h1{
+    font-size: 40px;
+    margin: 2vh 0 2vh 0;
+}
+#DescriptionZone span{
+    font-size: 40px;color: blueviolet;
+}
+/* ============================Div 3=======================================*/
